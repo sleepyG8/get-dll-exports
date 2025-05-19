@@ -29,7 +29,7 @@ PIMAGE_DATA_DIRECTORY exportDataDir = &oh->DataDirectory[IMAGE_DIRECTORY_ENTRY_E
 
 PIMAGE_EXPORT_DIRECTORY exportDir = (PIMAGE_EXPORT_DIRECTORY)((BYTE*)oh->ImageBase + exportDataDir->VirtualAddress);
 
-char* buff = (char*)malloc(8025 * sizeof(buff));
+char* buff = (char*)malloc(101 * sizeof(buff));
 snprintf(buff, 100, "%s.txt", argv[1]);
 FILE *file = fopen(buff, "a+");
 if (!file) {
