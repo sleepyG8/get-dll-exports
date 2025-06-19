@@ -1,0 +1,15 @@
+1: Function: AmsiCloseSession
+2: Function: AmsiInitialize
+3: Function: AmsiNotifyOperation
+4: Function: AmsiOpenSession
+5: Function: AmsiScanBuffer
+6: Function: AmsiScanString
+7: Function: AmsiUacInitialize
+8: Function: AmsiUacScan
+9: Function: AmsiUacUninitialize
+10: Function: AmsiUninitialize
+11: Function: DllCanUnloadNow
+12: Function: DllGetClassObject
+13: Function: DllRegisterServer
+14: Function: DllUnregisterServer
+# of functions: 14
